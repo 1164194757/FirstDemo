@@ -14,7 +14,7 @@ public class BuyService {
     private OrderDao orderDao;
 
     public void update(){
-        //
+        //产品更新
         productDao.update();
         //
         orderDao.update();
